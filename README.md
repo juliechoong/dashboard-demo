@@ -3,6 +3,7 @@
 This project demonstrates how to build your own dashboard using web-scraped data.
 
 ## Dependencies ##
+---
 - Python 3.9.5
 
 ## Installation ##
