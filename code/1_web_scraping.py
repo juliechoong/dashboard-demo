@@ -10,7 +10,7 @@ import string
 
 from bertopic import BERTopic
 from itunes_app_review_scraper import iTunesScraper
-import emoji
+
 
 def scrape_app(app_name, app_id):
     reviews = iTunesScraper.get_reviews(app_id=app_id, country='MY')

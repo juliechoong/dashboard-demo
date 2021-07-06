@@ -10,7 +10,6 @@ import string
 
 from bertopic import BERTopic
 from itunes_app_review_scraper import iTunesScraper
-import emoji
 
 
 def summarise_linkwords(app_name, df):

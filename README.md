@@ -3,6 +3,8 @@ This project demonstrates how to build your own analytics dashboard using web-sc
 
 ### Dependencies ###
 - Python 3.9.5
+- [iTunes Store App Review Scraper](https://github.com/mvoran/itunes_app_review_scraper)
+- [BERTopic](https://github.com/MaartenGr/BERTopic)
 
 ### Installation ###
 1. Clone this project.
@@ -11,3 +13,6 @@ This project demonstrates how to build your own analytics dashboard using web-sc
 4. Download Spacy's package: `python -m spacy download en_core_web_sm`
 5. Run the scripts in `\code` folder sequentially: e.g. `python code/1_web_scraping.py`
 6. Run `python app.py` to get the dashboard.
+
+### Notes ###
+- `/example-data` folder is an example of how the `/data` folder's structure should be when all codes have been run.
