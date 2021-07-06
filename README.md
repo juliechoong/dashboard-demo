@@ -5,6 +5,7 @@ This project demonstrates how to build your own analytics dashboard using web-sc
 - Python 3.9.5
 - [iTunes Store App Review Scraper](https://github.com/mvoran/itunes_app_review_scraper)
 - [BERTopic](https://github.com/MaartenGr/BERTopic)
+- [Plotly Dash](https://github.com/plotly/dash)
 
 ### Installation ###
 1. Clone this project.
