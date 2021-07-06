@@ -26,7 +26,7 @@ import dash_scripts.dash_functions as dun
                            
 ##############################################################################
 
-with open('data/apps.txt') as fileIn:
+with open('apps.txt') as fileIn:
     apps = dict(line.strip().split(',') for line in fileIn)
 
 reviews = None
