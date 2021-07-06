@@ -65,7 +65,7 @@ def clean_data(df):
     return df.reset_index(drop=True)
 
 if __name__ == '__main__':
-    with open('data/apps.txt') as fileIn:
+    with open('apps.txt') as fileIn:
         apps = dict(line.strip().split(',') for line in fileIn)
     
     os.makedirs('data/app_reviews/', exist_ok=True)

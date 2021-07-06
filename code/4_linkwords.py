@@ -176,7 +176,7 @@ if __name__ == '__main__':
     nlp = spacy.load('en_core_web_sm')
     os.makedirs('data/linkwords/', exist_ok=True)
     
-    with open('data/apps.txt') as fileIn:
+    with open('apps.txt') as fileIn:
         apps = dict(line.strip().split(',') for line in fileIn)
 
     df = pd.read_csv('data/all_reviews.csv', encoding='utf8')

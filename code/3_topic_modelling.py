@@ -46,7 +46,7 @@ def summarise_topics(app_name, df):
 
 
 if __name__ == '__main__':
-    with open('data/apps.txt') as fileIn:
+    with open('apps.txt') as fileIn:
         apps = dict(line.strip().split(',') for line in fileIn)
 
     os.makedirs('data/topics/', exist_ok=True)

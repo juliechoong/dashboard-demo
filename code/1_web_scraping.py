@@ -24,7 +24,7 @@ def scrape_app(app_name, app_id):
     dff.to_csv(filename, index=False, encoding='utf8')
 
 if __name__ == '__main__':
-    with open('data/apps.txt') as fileIn:
+    with open('apps.txt') as fileIn:
         apps = dict(line.strip().split(',') for line in fileIn)
 
     inputs = zip(apps.keys(), apps.values())
