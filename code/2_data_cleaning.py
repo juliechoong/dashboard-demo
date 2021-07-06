@@ -68,8 +68,6 @@ if __name__ == '__main__':
     with open('apps.txt') as fileIn:
         apps = dict(line.strip().split(',') for line in fileIn)
     
-    os.makedirs('data/app_reviews/', exist_ok=True)
-    
     df = combine_data(apps.keys())
     df = clean_data(df)
     df.to_csv('data/all_reviews.csv', encoding='utf8', index=False)

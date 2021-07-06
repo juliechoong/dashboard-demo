@@ -26,6 +26,8 @@ def scrape_app(app_name, app_id):
 if __name__ == '__main__':
     with open('apps.txt') as fileIn:
         apps = dict(line.strip().split(',') for line in fileIn)
+    
+    os.makedirs('data/app_reviews/', exist_ok=True)
 
     inputs = zip(apps.keys(), apps.values())
     with Pool(cpu_count()) as pool:
