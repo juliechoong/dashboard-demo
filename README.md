@@ -13,7 +13,7 @@ This project demonstrates how to build your own analytics dashboard using web-sc
 3. Go to cloned folder (where `requirements.txt` is) and install dependencies: `pip install -r requirements.txt --user`
 4. Download Spacy's package: `python -m spacy download en_core_web_sm`
 5. Run the scripts in `\code` folder sequentially: e.g. `python code/1_web_scraping.py`
-6. Run `python app.py` to get the dashboard.
+6. Run `python demo.py` to get the dashboard.
 
 ### Notes ###
 - `/example-data` folder is an example of how the `/data` folder's structure should be when all codes have been run.

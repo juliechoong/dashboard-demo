@@ -1,7 +1,6 @@
 bertopic
 dash
 dash_bootstrap_components
-emoji
 git+git://github.com/mvoran/itunes_app_review_scraper.git
 pandas
 seaborn
