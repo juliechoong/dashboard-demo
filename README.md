@@ -1,13 +1,10 @@
 # Dashboard Demo #
----
 This project demonstrates how to build your own dashboard using web-scraped data.
 
-## Dependencies ##
----
+### Dependencies ###
 - Python 3.9.5
 
-## Installation ##
----
+### Installation ###
 1. Clone this project.
 2. Create and activate virtual enrinvonment.
 3. Download Spacy's package: `python -m spacy download en_core_web_sm`
