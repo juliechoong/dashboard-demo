@@ -203,7 +203,7 @@ if __name__ == '__main__':
     
     for app_name in apps.keys():
         dff = df_link[df_link['app_name']==app_name].reset_index(drop=True)
-        dff.to_csv('data/linkwords_table_{}.csv'.format(app_name.lower()), index=False, encoding='utf8')
+        dff.to_csv('data/linkwords/linkwords_table_{}.csv'.format(app_name.lower()), index=False, encoding='utf8')
 
     inputs = zip(apps.keys(), repeat(df_link))
     with Pool(cpu_count()) as pool:
