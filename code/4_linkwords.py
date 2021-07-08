@@ -6,7 +6,6 @@ import os
 import pandas as pd
 import re
 import spacy
-import string
 
 from bertopic import BERTopic
 from itunes_app_review_scraper import iTunesScraper
